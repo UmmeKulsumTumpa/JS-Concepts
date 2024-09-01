@@ -1,6 +1,3 @@
-Here is the complete `README.md` content formatted for use in a markdown editor:
-
-```markdown
 # Synchronous vs Asynchronous JavaScript
 
 ## Synchronous
