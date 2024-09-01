@@ -20,7 +20,7 @@ Second
 Third
 ```
 
-## Asynchronous
+## Asynchronous (parallel)
 
 Asynchronous programming allows code execution to continue immediately to the next instruction without waiting for previous instructions to complete, thus preventing delays in the user interface. This approach utilizes mechanisms like callbacks, promises, and async-await to manage tasks that take time, such as network requests or timeouts.
 
@@ -47,15 +47,17 @@ Asynchronous code execution improves performance and responsiveness, making it e
 
 ## Further Learning
 
-To dive deeper into Asynchronous JavaScript, including callbacks, promises, and async-await, you can watch the detailed tutorial here:
+To dive deeper into Asynchronous JavaScript, including callbacks, promises, and async-await, you can watch the detailed tutorials here:
 
 **[Asynchronous JavaScript - Callbacks, Promises, and Async-Await - JavaScript Bangla (বাংলা) Tutorial](https://youtu.be/IUBd76UQb34?si=Qu1Z7KH1ywsaq7pR)**
+
+**[Documentation from w3school](https://www.w3schools.com/js/js_callback.asp)**
+
+**[https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**
 
 ### Key Concepts Covered:
 - **Call Stacks**: The mechanism that manages function execution.
 - **Web APIs**: Browser-provided features that handle asynchronous tasks.
 - **Callback Queue**: A queue that holds callback functions waiting to be executed.
 - **Event Loop**: A process that continuously checks the call stack and callback queue, allowing asynchronous code to run correctly.
-
-
 
