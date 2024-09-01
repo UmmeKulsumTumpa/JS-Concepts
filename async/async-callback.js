@@ -23,7 +23,7 @@ takeOrder(1, (customer) => {
     });
 });
 
-console.log(`showing that your code does not get blocked at process order`);
+console.log(`Non-blocking: showing that your code does not get blocked at process order`);
 
 takeOrder(2, (customer) => {
     processOrder(customer, (customer) => {
